@@ -33,11 +33,15 @@ main {
   height: 100vh;
 }
 
+.logo {
+  margin: 40px 0 0 0;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  margin: 40px;
+  margin: 80px 40px 40px 0;
 }
 
 .result {
@@ -47,7 +51,7 @@ main {
   background-color: var(--cor-fundo-resultado);
   width: auto;
   min-width: 300px;
-  margin: 40px 40px 40px 0;
+  margin: 80px 40px 40px 0;
   padding: 20px;
   border-radius: 32px;
   filter: drop-shadow(var(--cor-fonte-secundaria) 0.5rem 0.5rem 1rem);
