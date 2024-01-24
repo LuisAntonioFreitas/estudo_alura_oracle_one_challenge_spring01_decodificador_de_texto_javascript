@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-fonte-primaria: #0A3871;
+    --cor-fonte-secundaria: #D8DFE8;
+    --cor-fonte-hover-primaria: #092f5d;
+    --cor-fonte-hover-secundaria: #c6ccd4;
+
+    --cor-fonte-resultado-primaria1: #343A40;
+    --cor-fonte-resultado-primaria2: #495057;
+
+    --cor-fundo-geral: #F3F5FC;
+    --cor-fundo-resultado: #FFFFFF;
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-fundo-geral);
+    color: var(--cor-fonte-primaria);
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 40px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--cor-fundo-resultado);
+  width: auto;
+  min-width: 300px;
+  margin: 40px 40px 40px 0;
+  padding: 20px;
+  border-radius: 32px;
+  filter: drop-shadow(var(--cor-fonte-secundaria) 0.5rem 0.5rem 1rem);
+}
+.result__initial {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.result__initial__message1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--cor-fonte-resultado-primaria1);
+  padding: 0 40px;
+}
+.result__initial__message2 {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--cor-fonte-resultado-primaria2);
+  padding: 0 40px;
+}
+.result__finaly {
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10px;
+}
+.result__finaly__text {
+  font-size: 1.5rem;
+  text-align: left;
+  color: var(--cor-fonte-resultado-primaria2);
+  width: 100%;
+}
+
+.result__image {
+  width: 100%;
+}
