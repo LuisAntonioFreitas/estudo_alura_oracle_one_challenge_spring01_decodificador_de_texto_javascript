@@ -5,39 +5,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Decodificador de Texto</title>
+  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon_dark.png"
+        media="(prefers-color-scheme: dark)" />
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <header></header>
   <main>
     <section class="logo">
-      <img src="./assets/logo_alura.png" alt="Logo da Alura">
+      <img id="imglogo" 
+          src="./assets/logo_alura.png" alt="Logo da Alura">
+      <div class="logo__toggletheme">
+        <button id="toggletheme" class="logo__toggletheme__button">
+          <img id="togglethemeimage" class="logo__toggletheme__image"
+              src="./assets/toggletheme.png">
+        </button>
+      </div>
     </section>
     <section class="content">
-      <input type="text" value="" placeholder="digite seu texto" />
+      <div class="content__input">
+        <textarea id="inputText" name="inputText" class="content__inputtext" 
+            placeholder="digite seu texto" 
+            oninput="formatText()"></textarea>
+      </div>
       <p>
-        <span><img src="./assets/icons/exclamation.png" alt="Ícone Exclamação"></span>
+        <span>
+          <img id="imgexclamation"
+              src="./assets/icons/exclamation.png" alt="Ícone Exclamação">
+        </span>
         Apenas letras minúsculas e sem acento.
       </p>
-      <div>
-        <a>Criptografar</a>
-        <a>Descriptografar</a>
+      <div class="content__buttons">
+        <a class="content__buttons_encrypt"
+            onclick="handleEncrypt();">Criptografar</a>
+        <a class="content__buttons_decrypt"
+            onclick="handleDecrypt();">Descriptografar</a>
       </div>
     </section>
     <section class="result">
-      <div class="result__initial">
-        <img class="result__image" src="./assets/image.svg" alt="Procurando mensagem">
-        <p class="result__initial__message1">Nenhuma mensagem encontrada</p>
-        <p class="result__initial__message2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+      <div id="resultInitial" class="result__initial">
+        <img id="imgresult" class="result__initial__image" 
+            src="./assets/image_result.svg" alt="Procurando mensagem">
+        <p class="result__initial__message1">
+          Nenhuma mensagem encontrada
+        </p>
+        <p class="result__initial__message2">
+          Digite um texto que você deseja criptografar ou descriptografar.
+        </p>
       </div>
-      <div class="result__finaly">
+      <div id="resultFinaly" class="result__finaly">
         <p class="result__finaly__text">texto</p>
-        <a>Copiar</a>
+        <a class="result__finaly__copy"
+            onclick="handleCopy();">Copiar</a>
       </div>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="signature">
+      <a href="https://github.com/luisantoniofreitas" target="_blank">
+        &ltlaf /&gt
+      </a>
+      <p>|</p><p>2024</p>
+    </div>
+  </footer>
 
+  <script src="./scripts/toggletheme.js" defer></script>
   <script src="./scripts/script.js" defer></script>
 </body>
 </html>
