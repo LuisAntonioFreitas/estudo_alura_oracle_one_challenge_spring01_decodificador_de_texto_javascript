@@ -8,15 +8,21 @@
   <link rel="icon" href="/favicon.png" />
   <link rel="icon" href="/favicon_dark.png"
         media="(prefers-color-scheme: dark)" />
-  <link rel="stylesheet" href="./styles/fontawesome.v6.5.1.all.min.css">
+  <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive_tablet.css">
+  <link rel="stylesheet" href="./styles/responsive_mobile.css">
+  <link rel="stylesheet" href="./styles/fontawesome.v6.5.1.all.min.css">
 </head>
 <body>
   <header></header>
   <main>
     <section class="logo">
-      <img id="imgLogo" 
-          src="./assets/logo_alura.png" alt="Logo da Alura">
+      <a class="logo__alura" 
+          onclick="handleClear();">
+        <img id="imgLogo"  
+            src="./assets/logo_alura.png" alt="Logo da Alura">
+      </a>
       <div class="logo__toggletheme">
         <button id="toggleTheme" class="logo__toggletheme__button">
           <img id="toggleThemeImage" class="logo__toggletheme__image"
@@ -37,12 +43,12 @@
       <div class="content__buttons">
         <a class="content__buttons_encrypt"
             onclick="handleEncrypt();">
-          <span class="fa-solid fa-lock"></span>
+          <span class="fa-solid fa-lock icon-pulse"></span>
           Criptografar
         </a>
         <a class="content__buttons_decrypt"
             onclick="handleDecrypt();">
-          <span class="fa-solid fa-lock-open"></span>
+          <span class="fa-solid fa-lock-open icon-pulse"></span>
           Descriptografar
         </a>
       </div>
@@ -64,8 +70,8 @@
             class="result__finaly__text">          
         </textarea>
         <a class="result__finaly__copy"
-            onclick="handleCopy(this);">
-          <span class="fa-solid fa-copy"></span>
+            onclick="handleCopy();">
+          <span class="fa-solid fa-copy icon-pulse"></span>
           Copiar
         </a>
       </div>
@@ -78,8 +84,8 @@
     </div>
   </footer>
 
-  <script src="./scripts/fontawesome.v6.5.1.all.min.js" defer></script>
   <script src="./scripts/toggletheme.js" defer></script>
   <script src="./scripts/script.js" defer></script>
+  <script src="./scripts/fontawesome.v6.5.1.all.min.js" defer></script>
 </body>
 </html>

@@ -1,55 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800,900&display=swap');
-
-.dark {
-  /* text colors */
-  --color-font-primary: #CCCCCC;
-  --color-font-secondary: #272727;
-  --color-font-hover-primary: #888888;
-  --color-font-hover-secondary: #191919;
-
-  --color-font-result-primary: #c0c4c9;
-  --color-font-result-secondary: #d3d9de;
-
-  /* background colors */
-  --color-background-full: #2a2b2c;
-  --color-background-result: #000000;
-
-  /* signature */
-  --color-font-signature: #FFFFFF;
-  --color-font-hover-signature: #CCCCCC;
-}
-:root {
-  /* text colors */
-  --color-font-primary: #0A3871;
-  --color-font-secondary: #D8DFE8;
-  --color-font-hover-primary: #092f5d;
-  --color-font-hover-secondary: #c6ccd4;
-
-  --color-font-result-primary: #343A40;
-  --color-font-result-secondary: #495057;
-
-  /* background colors */
-  --color-background-full: #F3F5FC;
-  --color-background-result: #FFFFFF;
-
-  /* fonts */
-  --font-primary: 'Inter', sans-serif;
-
-  /* signature */
-  --color-font-signature: #000000;
-  --color-font-hover-signature: #414141;
-  --font-signature: 'Roboto', sans-serif;
-}
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-a {
-  color: inherit; 
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -70,6 +18,9 @@ main {
 
 .logo {
   margin: 40px 0 0 0;
+}
+.logo__alura {
+  cursor: pointer;
 }
 
 .logo__toggletheme {
@@ -152,8 +103,15 @@ main {
   cursor: pointer;
   transition: 0.3s;
 }
+.content__buttons_encrypt:active {
+  transition: 0.1s;
+  transform: scale(0.95);
+}
 .content__buttons_encrypt:hover {
   background: var(--color-font-hover-primary);
+}
+.content__buttons_encrypt:hover .icon-pulse {
+  animation: pulse 0.6s ease-in-out 2; /* infinite; */
 }
 .content__buttons_decrypt {
   display: flex;
@@ -172,8 +130,15 @@ main {
   cursor: pointer;
   transition: 0.3s;
 }
+.content__buttons_decrypt:active {
+  transition: 0.1s;
+  transform: scale(0.95);
+}
 .content__buttons_decrypt:hover {
   background: var(--color-font-hover-secondary);
+}
+.content__buttons_decrypt:hover .icon-pulse {
+  animation: pulse 0.6s ease-in-out 2; /* infinite; */
 }
 
 .result {
@@ -251,8 +216,15 @@ main {
   cursor: pointer;
   transition: 0.3s;
 }
+.result__finaly__copy:active {
+  transition: 0.1s;
+  transform: scale(0.95);
+}
 .result__finaly__copy:hover {
   background: var(--color-background-full);
+}
+.result__finaly__copy:hover .icon-pulse {
+  animation: pulse 0.6s ease-in-out 2; /* infinite; */
 }
 
 .signature {

@@ -60,7 +60,7 @@ function handleDecrypt() {
 }
 
 // função de copiar texto
-function handleCopy(e) {
+function handleCopy() {
   var text = document.getElementById('textResult');
   if (text.value.trim()) {
     navigator.clipboard.writeText(text.value.trim());
@@ -68,4 +68,11 @@ function handleCopy(e) {
     // text.setSelectionRange(0, 99999);
     // text.selectionStart = text.selectionEnd;
   }
+}
+
+// função de limpar texto
+function handleClear() {
+  var input = document.getElementById('inputText');
+  input.value = "";
+  formatText();
 }

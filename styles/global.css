@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800,900&display=swap');
+
+.dark {
+  /* text colors */
+  --color-font-primary: #888888;
+  --color-font-secondary: #272727;
+  --color-font-hover-primary: #CCCCCC;
+  --color-font-hover-secondary: #191919;
+
+  --color-font-result-primary: #c0c4c9;
+  --color-font-result-secondary: #d3d9de;
+
+  /* background colors */
+  --color-background-full: #2a2b2c;
+  --color-background-result: #000000;
+
+  /* signature */
+  --color-font-signature: #FFFFFF;
+  --color-font-hover-signature: #CCCCCC;
+}
+:root {
+  /* text colors */
+  --color-font-primary: #0A3871;
+  --color-font-secondary: #D8DFE8;
+  --color-font-hover-primary: #104f9d;
+  --color-font-hover-secondary: #c6ccd4;
+
+  --color-font-result-primary: #343A40;
+  --color-font-result-secondary: #495057;
+
+  /* background colors */
+  --color-background-full: #F3F5FC;
+  --color-background-result: #FFFFFF;
+
+  /* fonts */
+  --font-primary: 'Inter', sans-serif;
+
+  /* signature */
+  --color-font-signature: #000000;
+  --color-font-hover-signature: #414141;
+  --font-signature: 'Roboto', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+a {
+  color: inherit; 
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); /* Tamanho normal no início e no final da animação */
+  }
+  50% {
+    transform: scale(1.2); /* Tamanho aumentado no meio da animação */
+  }
+}
