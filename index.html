@@ -8,17 +8,18 @@
   <link rel="icon" href="/favicon.png" />
   <link rel="icon" href="/favicon_dark.png"
         media="(prefers-color-scheme: dark)" />
+  <link rel="stylesheet" href="./styles/fontawesome.v6.5.1.all.min.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <header></header>
   <main>
     <section class="logo">
-      <img id="imglogo" 
+      <img id="imgLogo" 
           src="./assets/logo_alura.png" alt="Logo da Alura">
       <div class="logo__toggletheme">
-        <button id="toggletheme" class="logo__toggletheme__button">
-          <img id="togglethemeimage" class="logo__toggletheme__image"
+        <button id="toggleTheme" class="logo__toggletheme__button">
+          <img id="toggleThemeImage" class="logo__toggletheme__image"
               src="./assets/toggletheme.png">
         </button>
       </div>
@@ -30,22 +31,25 @@
             oninput="formatText()"></textarea>
       </div>
       <p>
-        <span>
-          <img id="imgexclamation"
-              src="./assets/icons/exclamation.png" alt="Ícone Exclamação">
-        </span>
+        <span class="fa-solid fa-circle-exclamation content__exclamation"></span>
         Apenas letras minúsculas e sem acento.
       </p>
       <div class="content__buttons">
         <a class="content__buttons_encrypt"
-            onclick="handleEncrypt();">Criptografar</a>
+            onclick="handleEncrypt();">
+          <span class="fa-solid fa-lock"></span>
+          Criptografar
+        </a>
         <a class="content__buttons_decrypt"
-            onclick="handleDecrypt();">Descriptografar</a>
+            onclick="handleDecrypt();">
+          <span class="fa-solid fa-lock-open"></span>
+          Descriptografar
+        </a>
       </div>
     </section>
     <section class="result">
       <div id="resultInitial" class="result__initial">
-        <img id="imgresult" class="result__initial__image" 
+        <img id="imgResult" class="result__initial__image" 
             src="./assets/image_result.svg" alt="Procurando mensagem">
         <p class="result__initial__message1">
           Nenhuma mensagem encontrada
@@ -55,21 +59,26 @@
         </p>
       </div>
       <div id="resultFinaly" class="result__finaly">
-        <p class="result__finaly__text">texto</p>
+        <!-- <p id="textResult" class="result__finaly__text"> -->
+        <textarea id="textResult" readonly 
+            class="result__finaly__text">          
+        </textarea>
         <a class="result__finaly__copy"
-            onclick="handleCopy();">Copiar</a>
+            onclick="handleCopy(this);">
+          <span class="fa-solid fa-copy"></span>
+          Copiar
+        </a>
       </div>
     </section>
   </main>
   <footer>
     <div class="signature">
-      <a href="https://github.com/luisantoniofreitas" target="_blank">
-        &ltlaf /&gt
-      </a>
+      <a href="https://github.com/luisantoniofreitas" target="_blank">&ltlaf /&gt</a>
       <p>|</p><p>2024</p>
     </div>
   </footer>
 
+  <script src="./scripts/fontawesome.v6.5.1.all.min.js" defer></script>
   <script src="./scripts/toggletheme.js" defer></script>
   <script src="./scripts/script.js" defer></script>
 </body>

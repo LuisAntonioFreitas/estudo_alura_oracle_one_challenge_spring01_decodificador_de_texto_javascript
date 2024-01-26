@@ -1,9 +1,8 @@
-const toggle = document.getElementById("toggletheme");
-const image = document.getElementById("togglethemeimage");
+const toggle = document.getElementById("toggleTheme");
+const image = document.getElementById("toggleThemeImage");
 
-const logo = document.getElementById("imglogo");
-const result = document.getElementById("imgresult");
-const imgexclamation = document.getElementById("imgexclamation");
+const logo = document.getElementById("imgLogo");
+const result = document.getElementById("imgResult");
 
 var theme = window.localStorage.getItem("dt-theme");
 if (theme == "dark") document.body.classList.add("dark");
@@ -34,12 +33,10 @@ function applicationsThemeLight() {
 
   logo.setAttribute('src', './assets/logo_alura.png');
   result.setAttribute('src', './assets/image_result.svg');
-  imgexclamation.setAttribute('src', './assets/icons/exclamation.png');
 }
 function applicationsThemeDark() {
   image.setAttribute('src', './assets/toggletheme_dark.png');
 
   logo.setAttribute('src', './assets/logo_alura_dark.png');
   result.setAttribute('src', './assets/image_result_dark.svg');
-  imgexclamation.setAttribute('src', './assets/icons/exclamation_dark.png');
 }
