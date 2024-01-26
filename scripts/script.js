@@ -63,9 +63,9 @@ function handleDecrypt() {
 function handleCopy(e) {
   var text = document.getElementById('textResult');
   if (text.value.trim()) {
-    text.select();
-    text.setSelectionRange(0, 99999);
-    text.selectionStart = text.selectionEnd;
     navigator.clipboard.writeText(text.value.trim());
+    // text.select();
+    // text.setSelectionRange(0, 99999);
+    // text.selectionStart = text.selectionEnd;
   }
 }
