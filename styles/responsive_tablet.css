@@ -1,0 +1,37 @@
+@media (min-width: 479px) and (max-width: 1024px) {
+
+  main {
+    flex-direction: column;
+  }
+
+  .content {
+    width: auto;
+    height: 100%;
+    margin: 20px 40px 20px 40px;
+  }
+  .content__buttons {
+    padding-bottom: 0;
+  }
+
+  .result {
+    margin: 20px 40px 60px 40px;
+  }
+  .result__initial__image {
+    display: none;
+  }
+  .result__finaly {
+    height: auto;
+  }
+  .result__finaly__text {
+    height: 70px;
+  }
+
+  @media (max-height: 600px) {
+
+    .signature {
+      display: none;
+    }
+  
+  }
+
+}

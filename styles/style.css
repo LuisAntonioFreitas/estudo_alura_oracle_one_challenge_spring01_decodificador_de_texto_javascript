@@ -16,6 +16,10 @@ main {
   height: 100vh;
 }
 
+header {
+  display: flex;
+}
+
 .logo {
   margin: 40px 0 0 0;
 }
@@ -227,11 +231,15 @@ main {
   animation: pulse 0.6s ease-in-out 2; /* infinite; */
 }
 
+footer {
+  display: flex;
+}
 .signature {
   display: flex;
-  justify-content: space-between;
-  gap: 8px;
+  justify-content: left;
   float: left;
+  width: 100%;
+  gap: 8px;
   margin: -40px 40px 0 40px;
   color: var(--color-font-signature);
   font-family: var(--font-signature);
@@ -248,4 +256,12 @@ main {
 .signature a:hover {
   color: var(--color-font-hover-signature);
   font-weight: 600;
+}
+
+@media (max-height: 330px) {
+
+  .signature {
+    display: none;
+  }
+
 }

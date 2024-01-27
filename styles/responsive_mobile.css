@@ -1,0 +1,60 @@
+@media (max-width: 480px) {
+  
+  main {
+    flex-direction: column;
+  }
+  
+  .logo {
+    margin: 20px 0 0 0;
+  }
+  .logo__toggletheme {
+    padding: 20px 20px;
+  }
+
+  .content {
+    width: auto;
+    height: 100%;
+    margin: 20px 40px 20px 40px;
+  }
+  .content__buttons {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .result {
+    margin: 20px 20px 60px 20px;
+  }
+  .result__initial {
+    gap: 10px;
+  }
+  .result__initial__image {
+    display: none;
+  }
+  .result__initial__message1 {
+    font-size: 1.3rem;
+    padding: 0 20px;
+  }
+  .result__initial__message2 {
+    font-size: 0.9rem;
+    padding: 0 20px;
+  }
+  .result__finaly {
+    height: auto;
+  }
+  .result__finaly__text {
+    height: 70px;
+  }
+
+  .signature {
+    justify-content: center;
+  }
+
+  @media (max-height: 600px) {
+
+    .signature {
+      display: none;
+    }
+  
+  }
+
+}
