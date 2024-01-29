@@ -4,8 +4,9 @@
     <div style="width:150px;align-items:center;margin-bottom:15px;">
       <a href="https://github.com/luisantoniofreitas" target="_blank">
         <img src="https://avatars.githubusercontent.com/luisantoniofreitas" 
-            alt="Avatar GitHub" width="150px"
-            style="border: 5px solid white"></a>
+            alt="Avatar GitHub" 
+            width="150px" height="auto" 
+            border="5px solid #fff"></a>
     </div>
     Decodificador de Texto
     <br>
@@ -15,9 +16,7 @@
 <h4 align="center">
 
   **ORACLE ONE | Challenge**  
-  <kbd>
-  Spring 01: Decodificador de Texto
-  </kbd>
+  <kbd>Spring 01: Decodificador de Texto
 </h4>
 
 <p align="center">
@@ -40,9 +39,14 @@
   <a href="#licenca">Licença</a>
 </p>
 
-<a href="url"><img src="https://avatars.githubusercontent.com/luisantoniofreitas" height="auto" width="200" style="border-radius:50%;border:5px solid #fff"></a>
+<img src="https://avatars.githubusercontent.com/luisantoniofreitas" width="200" height="auto" 
+border="15px solid #cccccc"
+style="border-radius:50%">
+
+<div width="150px" border="5px solid ##e2e">
 
 ![screenshot](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/assets/readme/screens.gif)
+</div>
 
 ## 📋 Recursos<a id="recursos"></a>
 
