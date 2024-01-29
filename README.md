@@ -5,12 +5,16 @@
       <a href="https://github.com/luisantoniofreitas" target="_blank">
         <img src="https://avatars.githubusercontent.com/luisantoniofreitas" 
             alt="Avatar GitHub" width="150px"
-            style="border:5px solid white;border-radius:150px;"></a>
+            style="border: 5px solid white"></a>
     </div>
     Decodificador de Texto
     <br>
   </div>
 </h1>
+
+<kbd>
+x
+</kbd>
 
 <h4 align="center">
   <strong>ORACLE ONE | Challenge</strong>
@@ -41,11 +45,20 @@
 
 ![screenshot](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/assets/readme/screens.gif)
 
-<div style="display:flex;">
+<table><tr>
+  <td valign="top">
+
+## 📋
+</td><td valign="top">
+
+## Recursos
+</td></tr></table>
+
+<!-- <div style="display:flex;">
 <p style="font-size:1.5rem;">📋</p>&nbsp;
 
 ## Recursos
-</div>
+</div> -->
 
 * Criptografa e descriptografa textos.
 
