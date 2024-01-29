@@ -1,12 +1,12 @@
 
 <h1 align="center">
   <div style="width:100%;display:flex;flex-direction:column;align-items:center;margin-bottom:10px;">
-    <div style="width:150px;align-items:center;margin-bottom:15px;">
+    <div style="align-items:center;margin-bottom:15px;">
       <a href="https://github.com/luisantoniofreitas" target="_blank">
         <img src="https://avatars.githubusercontent.com/luisantoniofreitas" 
             alt="Avatar GitHub" 
             width="150px" height="auto" 
-            border="5px solid #fff"></a>
+            style="border:5px;border-style:solid;border-color:white;border-radius:50%;"></a>
     </div>
     Decodificador de Texto
     <br>
@@ -39,21 +39,9 @@
   <a href="#licenca">Licença</a>
 </p>
 
-<img src="https://avatars.githubusercontent.com/luisantoniofreitas" width="200" height="auto" 
-style="border: 5px solid  gray;">
-
-<div width="150px" border="5px solid ##e2e">
-
 ![screenshot](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/assets/readme/screens.gif)
-</div>
 
 ## 📋 Recursos<a id="recursos"></a>
-
-<!-- <div style="display:flex;">
-<p style="font-size:1.5rem;">📋</p>&nbsp;
-
-## Recursos
-</div> -->
 
 * Criptografa e descriptografa textos.
 
