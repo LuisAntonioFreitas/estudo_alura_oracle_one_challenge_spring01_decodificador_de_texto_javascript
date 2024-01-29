@@ -40,8 +40,7 @@
 </p>
 
 <img src="https://avatars.githubusercontent.com/luisantoniofreitas" width="200" height="auto" 
-border="15px solid #cccccc"
-style="border-radius:50%">
+style="border: 5px solid  gray;">
 
 <div width="150px" border="5px solid ##e2e">
 
