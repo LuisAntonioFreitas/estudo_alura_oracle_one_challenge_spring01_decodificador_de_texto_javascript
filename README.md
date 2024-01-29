@@ -15,7 +15,7 @@
 
 <h4 align="center">
 
-  **ORACLE ONE | Challenge**  
+  **ORACLE ONE | Alura | Challenge**  
   <kbd>Spring 01: Decodificador de Texto
 </h4>
 
@@ -34,6 +34,7 @@
 <p align="center">
   <a href="#recursos">Recursos</a> •
   <a href="#funcionamento">Funcionamento</a> •
+  <a href="#desafio">Desafio</a> •
   <a href="#download">Download</a> •
   <a href="#creditos">Créditos</a> •
   <a href="#licenca">Licença</a>
@@ -48,12 +49,9 @@
 > **Nota**
 >
 > * Só são aceitas letras minúsculas e sem acentos ou caractres especiais.
->
 > * Botão para copiar o texto resultante, facilitando o manuseio dos mesmos em criptografias ou descriptografias.
->  
 > * Designer totalmente responviso adaptando-se em desktops, tablets e celulares.
->
-> * Modo de tema Dark/Light adicionado.
+> * Modo de tema Dark/Light disponível.
 
 ---
 
@@ -80,9 +78,38 @@ $ npm start
 
 ---
 
+## 🏅 Desafio<a id="desafio"></a>
+
+* Deve funcionar apenas com letras minúsculas.
+* Não devem ser utilizados letras com acentos nem caracteres especiais.
+* Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+* A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.
+* O resultado deve ser exibido na tela.
+* As "chaves" de criptografia que utilizaremos são:  
+A letra "e" é convertida para "enter"  
+A letra "i" é convertida para "imes"  
+A letra "a" é convertida para "ai"  
+A letra "o" é convertida para "ober"  
+A letra "u" é convertida para "ufat"  
+* Descubra qual é a nossa mensagem secreta:  
+**"pairaibenterns poberr enterncairair enterssenter dentersaifimesober enter tenterr fimesnailimeszaidober enterlenter coberm sufatcenterssober!"**
+* **Extras**  
+  * Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do <kbd>ctrl+C</kbd> ou da opção "copiar" do menu dos aplicativos.
+  * Rodapé com informações do desenvolvedor. 
+  * Utilize o que aprendeu sobre Git e GitHub e publique sua página utilizando o serviço GitHub Pages. Dessa forma, você pode compartilhar o resultado do seu projeto.
+
+> **Bônus Adicionados**
+>
+> * Modo de tema Dark/Light adicionado.
+> * CSS trabalhado para tornar totalmente responviso adaptando-se em desktops, tablets e celulares.
+> * Botões com efeitos de cliques e ícones com animações para tornar a experiência do usuário a mais agradável possível. 
+
+---
+
 ## 🔽 Download<a id="download"></a>
 Faça [download](https://codeload.github.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/zip/refs/heads/master) dos arquivos do repositório.  
-O arquivo [figma](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_desafio_1_logica.fig) base também esta disponível.
+O arquivo [figma](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_desafio_1_logica.fig) base do desafio também está disponível.  
+Além do arquivo guia em [PDF](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_decodificador_vfinal_4.pdf) também do desafio proposto.
 
 ---
 
