@@ -1,10 +1,11 @@
 
 <h1 align="center">
   <div style="width:100%;display:flex;flex-direction:column;align-items:center;margin-bottom:10px;">
-    <div style="width:150px;align-items:center;border:5px solid white;border-radius:150px;margin-bottom:15px;">
+    <div style="width:150px;align-items:center;margin-bottom:15px;">
       <a href="https://github.com/luisantoniofreitas" target="_blank">
         <img src="https://avatars.githubusercontent.com/luisantoniofreitas" 
-            alt="Avatar GitHub" width="200px"></a>
+            alt="Avatar GitHub" width="150px"
+            style="border:5px solid white;border-radius:150px;"></a>
     </div>
     Decodificador de Texto
     <br>
