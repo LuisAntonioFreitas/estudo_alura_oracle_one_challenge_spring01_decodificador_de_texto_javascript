@@ -12,15 +12,12 @@
   </div>
 </h1>
 
-<kbd>
-x
-</kbd>
-
 <h4 align="center">
-  <strong>ORACLE ONE | Challenge</strong>
-  <br>
+
+  **ORACLE ONE | Challenge**  
+  <kbd>
   Spring 01: Decodificador de Texto
-  <br><br>
+  </kbd>
 </h4>
 
 <p align="center">
@@ -39,20 +36,15 @@ x
   <a href="#recursos">Recursos</a> •
   <a href="#funcionamento">Funcionamento</a> •
   <a href="#download">Download</a> •
-  <a href="#créditos">Créditos</a> •
-  <a href="#licença">Licença</a>
+  <a href="#creditos">Créditos</a> •
+  <a href="#licenca">Licença</a>
 </p>
+
+<a href="url"><img src="https://avatars.githubusercontent.com/luisantoniofreitas" height="auto" width="200" style="border-radius:50%;border:5px solid #fff"></a>
 
 ![screenshot](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/assets/readme/screens.gif)
 
-<table><tr>
-  <td valign="top">
-
-## 📋
-</td><td valign="top">
-
-## Recursos
-</td></tr></table>
+## 📋 Recursos<a id="recursos"></a>
 
 <!-- <div style="display:flex;">
 <p style="font-size:1.5rem;">📋</p>&nbsp;
@@ -62,10 +54,6 @@ x
 
 * Criptografa e descriptografa textos.
 
-<br>
-
-><br>
->
 > **Nota**
 >
 > * Só são aceitas letras minúsculas e sem acentos ou caractres especiais.
@@ -75,17 +63,10 @@ x
 > * Designer totalmente responviso adaptando-se em desktops, tablets e celulares.
 >
 > * Modo de tema Dark/Light adicionado.
->
-><br>
-<br>
 
 ---
 
-<div style="display:flex;">
-<p style="font-size:1.5rem;">🧭</p>&nbsp;
-
-## Funcionamento
-</div>
+## 🧭 Funcionamento<a id="funcionamento"></a>
 
 * Basta digitar o texto na área indicada e escolher entre criptografar ou descriptografar nos botões abaixo. 
 
@@ -108,34 +89,20 @@ $ npm start
 
 ---
 
-<div style="display:flex;">
-<p style="font-size:1.5rem;">🔽</p>&nbsp;
-
-## Download
-</div>
-
-Faça [download](https://codeload.github.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/zip/refs/heads/master) dos arquivos do repositório.
-<br>
+## 🔽 Download<a id="download"></a>
+Faça [download](https://codeload.github.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/zip/refs/heads/master) dos arquivos do repositório.  
 O arquivo [figma](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_desafio_1_logica.fig) base também esta disponível.
 
 ---
 
-<div style="display:flex;">
-<p style="font-size:1.5rem;">⭐</p>&nbsp;
-
-## Créditos
-</div>
+## ⭐ Créditos<a id="creditos"></a>
 
 - [Oracle One](https://www.oracle.com/br/education/oracle-next-education/)
 - [Alura](https://www.alura.com.br/)
 
 ---
 
-<div style="display:flex;">
-<p style="font-size:1.5rem;">©️</p>&nbsp;
-
-## Licença
-</div>
+## ©️ Licença<a id="licenca"></a>
 
 MIT
 
