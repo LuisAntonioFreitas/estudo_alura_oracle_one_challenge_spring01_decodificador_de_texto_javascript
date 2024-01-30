@@ -109,6 +109,7 @@ A letra "u" é convertida para "ufat"
 > * Modo de tema Dark/Light adicionado.
 > * CSS trabalhado para tornar totalmente responviso adaptando-se em desktops, tablets e celulares.
 > * Botões com efeitos de cliques e ícones com animações para tornar a experiência do usuário a mais agradável possível. 
+> * Designer respeitando o arquivo figma e seguindo cores e padrões utilizados. 
 
 ---
 
