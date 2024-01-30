@@ -40,6 +40,12 @@
   <a href="#licenca">Licença</a>
 </p>
 
+<h4 align="center">
+
+  **GitHub Pages**  
+  [https://luisantoniofreitas.github.io/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/](https://luisantoniofreitas.github.io/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/)
+</h4>
+
 ![screenshot](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/assets/readme/screens.gif)
 
 ## 📋 Recursos<a id="recursos"></a>
@@ -98,7 +104,7 @@ A letra "u" é convertida para "ufat"
   * Rodapé com informações do desenvolvedor. 
   * Utilize o que aprendeu sobre Git e GitHub e publique sua página utilizando o serviço GitHub Pages. Dessa forma, você pode compartilhar o resultado do seu projeto.
 
-> **Bônus Adicionados**
+> **Bônus Adicionados e Observações**
 >
 > * Modo de tema Dark/Light adicionado.
 > * CSS trabalhado para tornar totalmente responviso adaptando-se em desktops, tablets e celulares.
@@ -115,8 +121,8 @@ Além do arquivo guia em [PDF](https://raw.githubusercontent.com/LuisAntonioFrei
 
 ## ⭐ Créditos<a id="creditos"></a>
 
-- [Oracle One](https://www.oracle.com/br/education/oracle-next-education/)
-- [Alura](https://www.alura.com.br/)
+* [Oracle One](https://www.oracle.com/br/education/oracle-next-education/)
+* [Alura](https://www.alura.com.br/)
 
 ---
 
