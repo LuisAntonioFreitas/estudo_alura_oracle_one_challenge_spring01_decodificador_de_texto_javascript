@@ -42,8 +42,8 @@
 
 <h4 align="center">
 
-  **GitHub Pages**  
-  [https://luisantoniofreitas.github.io/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/](https://luisantoniofreitas.github.io/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/)
+  *Acesse*  
+  [GitHub Pages](https://luisantoniofreitas.github.io/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/)
 </h4>
 
 ![screenshot](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/assets/readme/screens.gif)
