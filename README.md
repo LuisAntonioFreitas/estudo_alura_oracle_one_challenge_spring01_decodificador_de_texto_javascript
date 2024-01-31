@@ -42,7 +42,7 @@
 
 <h4 align="center">
 
-  *Acesse*  
+  *Demonstração*  
   [GitHub Pages](https://luisantoniofreitas.github.io/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/)
 </h4>
 
@@ -54,9 +54,9 @@
 
 > **Nota**
 >
-> * Só são aceitas letras minúsculas e sem acentos ou caractres especiais.
-> * Botão para copiar o texto resultante, facilitando o manuseio dos mesmos em criptografias ou descriptografias.
-> * Designer totalmente responviso adaptando-se em desktops, tablets e celulares.
+> * Só são aceitas letras minúsculas e sem acentos ou caracteres especiais.
+> * Botão para copiar o texto resultante, facilitando o manuseio em criptografias ou descriptografias.
+> * Design totalmente responsivo, adaptando-se em desktops, tablets e celulares.
 > * Modo de tema Dark/Light disponível.
 
 ---
@@ -107,16 +107,15 @@ A letra "u" é convertida para "ufat"
 > **Bônus Adicionados e Observações**
 >
 > * Modo de tema Dark/Light adicionado.
-> * CSS trabalhado para tornar totalmente responviso adaptando-se em desktops, tablets e celulares.
+> * CSS trabalhado para tornar totalmente responsivo, adaptando-se em desktops, tablets e celulares.
 > * Botões com efeitos de cliques e ícones com animações para tornar a experiência do usuário a mais agradável possível. 
-> * Designer respeitando o arquivo figma e seguindo cores e padrões utilizados. 
+> * Design respeitando o arquivo figma e seguindo as cores e os padrões utilizados. 
 
 ---
 
 ## 🔽 Download<a id="download"></a>
 Faça [download](https://codeload.github.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/zip/refs/heads/master) dos arquivos do repositório.  
-O arquivo [figma](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_desafio_1_logica.fig) base do desafio também está disponível.  
-Além do arquivo guia em [PDF](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_decodificador_vfinal_4.pdf) também do desafio proposto.
+O arquivo [figma](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_desafio_1_logica.fig) e também o guia em [PDF](https://raw.githubusercontent.com/LuisAntonioFreitas/estudo_alura_oracle_one_challenge_spring01_decodificador_de_texto_javascript/master/alura_challenge_decodificador_vfinal_4.pdf) do desafio estão disponíveis.
 
 ---
 
